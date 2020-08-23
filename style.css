@@ -1,0 +1,96 @@
+.btn-color{
+	background-color: red;
+	color: white;
+	border: solid;
+	height: 50px;
+	width: 150px;
+}
+
+.btn-rounded{
+	background-color: blue;
+	color: white;
+	border: solid;
+	height: 50px;
+	width: 150px;
+	border-radius: 50px;
+}
+
+.btn-border{
+	background-color: black;
+	border: solid;
+	color: red;
+	border: solid;
+	height: 50px;
+	width: 150px;
+	border-radius: 50px;
+}
+
+.btn-shadow{
+	background-color: gray;
+	color: black;
+	border: none;
+	height: 50px;
+	width: 150px;
+	border-radius: 50px;
+	box-shadow: 3px 5px black;
+}
+
+.btn-hover-color{
+	background-color: yellow;
+	border: none;
+	height: 50px;
+	width: 150px;
+	border-radius: 50px;
+}
+.btn-hover-color:hover{
+	background-color: orange;
+}
+
+.btn-hover-shadow{
+	background-color: orange;
+	border: none;
+	height: 50px;
+	width: 150px;
+	border-radius: 20px;
+}
+
+.btn-hover-shadow:hover{
+	box-shadow: 3px 3px #666;
+}
+
+.btn-hover-gradient{
+	background-image: linear-gradient(white, black);
+	border: none;
+	height: 50px;
+	width: 150px;
+	border-radius: 20px;
+}
+
+.btn-hover-gradient:hover{
+	background-image: linear-gradient(black, white);
+}
+
+.btn-pointer{
+	background-image: linear-gradient(red, orange, yellow, green, blue, purple);
+	border: none;
+	height: 50px;
+	width: 150px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.btn-mix{
+	background-image: linear-gradient(red, orange, yellow, green, blue, purple);
+	border: solid 5px orange;
+	height: 50px;
+	width: 150px;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 5px 10px gray;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.btn-mix:hover{
+	background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple)
+}
